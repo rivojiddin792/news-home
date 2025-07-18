@@ -1,4 +1,7 @@
 import styled from "styled-components";
+import retro from "../assets/image-retro-pcs.jpg";
+import laptops from "../assets/image-top-laptops.jpg";
+import gaming from "../assets/image-gaming-growth.jpg";
 
 const FooterWrapper = styled.footer`
   display: flex;
@@ -51,7 +54,7 @@ export default function Footer() {
   return (
     <FooterWrapper>
       <FooterItem>
-        <FooterImage src="/public/images/image-retro-pcs.jpg" alt="retro pcs" />
+        <FooterImage src={retro} alt="retro pcs" />
         <FooterText>
           <h2>01</h2>
           <h5>Reviving Retro PCs</h5>
@@ -60,7 +63,7 @@ export default function Footer() {
       </FooterItem>
 
       <FooterItem>
-        <FooterImage src="/public/images/image-top-laptops.jpg" alt="top laptops" />
+        <FooterImage src={laptops} alt="top laptops" />
         <FooterText>
           <h2>02</h2>
           <h5>Top 10 Laptops of 2022</h5>
@@ -69,7 +72,7 @@ export default function Footer() {
       </FooterItem>
 
       <FooterItem>
-        <FooterImage src="/public/images/image-gaming-growth.jpg" alt="gaming growth" />
+        <FooterImage src={gaming} alt="gaming growth" />
         <FooterText>
           <h2>03</h2>
           <h5>The Growth of Gaming</h5>
