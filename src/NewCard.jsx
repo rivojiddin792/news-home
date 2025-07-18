@@ -1,4 +1,3 @@
-// components/NewCard.jsx
 import styled from "styled-components";
 
 const CardWrapper = styled.section`

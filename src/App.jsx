@@ -17,7 +17,6 @@ function Page({ title }) {
   return <h1>{title}</h1>;
 }
 
-// Layout with conditional footer
 function Layout() {
   const location = useLocation();
   const showFooter = location.pathname === "/";

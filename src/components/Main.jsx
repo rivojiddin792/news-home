@@ -1,4 +1,3 @@
-// components/Main.jsx
 import styled from "styled-components";
 import NewCard from "../NewCard";
 
@@ -78,7 +77,7 @@ export default function Main() {
   return (
     <MainWrapper>
       <MainLeft>
-        <WebImage src="/assets/images/image-web-3-desktop.jpg" alt="Web 3 image" />
+        <WebImage src="/public/images/image-web-3-desktop.jpg" alt="Web 3 image" />
         <Web3Content>
           <Web3Text>
             <h1>The Bright Future of Web 3.0?</h1>

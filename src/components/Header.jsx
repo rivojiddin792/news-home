@@ -31,7 +31,7 @@ export default function Header() {
   return (
     <HeaderWrapper>
       <div>
-        <Logo src="/assets/images/logo.svg" alt="Logo" />
+        <Logo src="/public/images/logo.svg" alt="Logo" />
       </div>
       <NavButtons>
         <Link to="/">Home</Link>
